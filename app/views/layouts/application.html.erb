@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sumuni</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta name="description" content="">
+
+	<meta name="keywords" content="">
+
+	<meta name="author" content="">
+
+	<title>Sumuni Technologies- Delivering Solutions</title>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80105425-1', 'auto');
+  ga('send', 'pageview');
+
+           </script>
+
+	
+
+	<!-- CSS -->
+
+
+	
+
+
+	<%= stylesheet_link_tag "font-awesome.css" %>
+	<%= stylesheet_link_tag "component.css" %>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+	<!--[if lt IE 9]>
+
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+	<![endif]-->
+	<%= image_tag('sumuni-logo3.jpeg') %>
+  </head>
+
+  <bodyclass="tooltips" id="top" data-spy="scroll" data-target="#myScrollspy">
+  <div class="wrapper">
+
+	
+
+		<!-- 
+
+		===========================================
+
+		BEGIN HEADER SECTION
+
+		===========================================
+
+		-->
+
+		<div id="header-landing">
+
+			<!-- NAV MENU WRAPPER FOR FIXED POSITION -->
+
+			<div id="nav-menu">
+
+				<!-- NAV MENU CONTAINER -->
+
+				<div class="container">
+
+					<!-- LOGO -->
+
+					<div id="logo">
+
+						<a class="" href="#"><%= image_tag('sumuni-logo1.jpg') %></a>
+
+					<!--<h1><a href="index.html"><i class="fa fa-exchange"></i> Sumuni Technologies</a></h1>
+
+					</div><!-- /#logo -->
+
+					</div>
+
+					<!-- END LOGO -->
+
+					<!-- NAV MENU -->
+
+					<div class="menus" id="myScrollspy">
+
+						<ul class="nav scroll-nav">
+
+				    <li class="active"><a href="#top"><i class="fa fa-home"></i><span>Home</span></a></li>
+
+					<li><a href="#services"><i class="fa fa-cog"></i><span>Services</span></a></li>
+
+					<li><a href="#portfolio"><i class="fa fa-flask"></i><span>Portfolio</span></a></li>
+
+					<li><a href="#team"><i class="fa fa-users"></i><span>Team</span></a></li>
+
+					<li><a href="#contact"><i class="fa fa-envelope"></i><span>Contact</span></a></li>
+
+						</ul>
+
+					</div><!-- /.menus -->
+
+					<!-- END NAV MENU -->
+
+				</div><!-- /.container -->
+
+				<!-- END NAV MENU CONTAINER -->
+
+			</div><!-- /.nav-menu -->
+
+			<!-- END NAV MENU FIXED POSITION -->
+    <%= yield %>
+  </body>
+</html>
