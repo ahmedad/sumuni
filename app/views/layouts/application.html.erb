@@ -99,7 +99,7 @@
 
 						<ul class="nav scroll-nav">
 
-				    <li class="active"><a href="#top"><i class="fa fa-home"></i><span>Home</span></a></li>
+				    <li><%= link_to "Home", root_path, class: 'scroll' %></li>
 
 					<li><a href="#services"><i class="fa fa-cog"></i><span>Services</span></a></li>
 
@@ -108,6 +108,8 @@
 					<li><a href="#team"><i class="fa fa-users"></i><span>Team</span></a></li>
 
 					<li><a href="#contact"><i class="fa fa-envelope"></i><span>Contact</span></a></li>
+
+					<li><%= link_to "Request a quotation", new_contact_path, class: 'scroll' %></li>
 
 						</ul>
 
