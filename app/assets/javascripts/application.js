@@ -13,6 +13,7 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
+//= require 'jquery.backstretch'
 //= require bootstrapValidator
 //= require jquery.mixitup
 //= require jquery.parallax-1.1.3
