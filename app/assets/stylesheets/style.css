@@ -1932,10 +1932,10 @@ footer .footer{
 }
 
 .about-content h2{
-    color: #8FC93F;
+    color: black;
 }
 
-.about-content > 4{
+.about-content > 4	§{
     color: #707070;
     font-weight: 100;
     line-height: 20px;
