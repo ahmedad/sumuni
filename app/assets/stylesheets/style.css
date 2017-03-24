@@ -1922,7 +1922,7 @@ footer .footer{
 
 /*===== about us ====*/
 .about-us{
-    background-color: antiquewhite;
+    background-color: currentColor;
     padding-bottom: 0;
     padding-top: 0;
 }
