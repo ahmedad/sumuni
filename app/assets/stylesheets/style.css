@@ -1922,7 +1922,7 @@ footer .footer{
 
 /*===== about us ====*/
 .about-us{
-    background-color: #121212;
+    background-color: black;
     padding-bottom: 0;
     padding-top: 0;
 }
@@ -1935,6 +1935,12 @@ footer .footer{
     color: #8FC93F;
 }
 
+.about-content > 4{
+    color: #707070;
+    font-weight: 100;
+    line-height: 20px;
+    max-width: 695px;
+}
 
 
 /*===== our service ====*/
