@@ -1922,7 +1922,7 @@ footer .footer{
 
 /*===== about us ====*/
 .about-us{
-    background-color: #121212;
+    background-color: antiquewhite;
     padding-bottom: 0;
     padding-top: 0;
 }
@@ -1939,7 +1939,7 @@ footer .footer{
     color: #707070;
     font-weight: 100;
     line-height: 20px;
-    max-width: 535px;
+    max-width: 695px;
 }
 
 .about-us img, .carousel-inner > .item > img{
@@ -1947,3 +1947,8 @@ footer .footer{
 }
 
 /*===== our service ====*/
+
+.carousel-inner > .active {
+  left: 0;
+  height: 39rem;
+}
