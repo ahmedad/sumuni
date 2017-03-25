@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-	default to: 'info@sumunitech.co.ke'
+	default to: 'hello@sumunitech.co.ke'
 	def contact_email(name, email, request, massage)
 		@name = name
 		@email = email
